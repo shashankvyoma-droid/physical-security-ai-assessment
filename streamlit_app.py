@@ -25,7 +25,7 @@ SEVERITY_COLORS = {"Low": GREEN, "Medium": GOLD, "High": "#E26A2C", "Critical": 
 
 st.set_page_config(
     page_title="SentinelAI | Physical Security Intelligence",
-    page_icon="ðŸ›¡ï¸",
+    page_icon="shield",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -97,13 +97,13 @@ df, quality = load_data()
 view = filtered_data(df)
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Assessment dataset Â· 2,000 historical incidents")
+st.sidebar.caption("Assessment dataset - 2,000 historical incidents")
 st.sidebar.caption("Risk scores support prioritization; they do not replace security judgment.")
 
 st.markdown(
     """
     <div class="hero">
-      <h1>ðŸ›¡ï¸ SentinelAI Security Intelligence</h1>
+      <h1>SentinelAI Security Intelligence</h1>
       <p>Global incident trends, operational risk, response performance, and explainable AI triage</p>
     </div>
     """,
@@ -170,7 +170,7 @@ with overview_tab:
         )
         st.altair_chart(chart, width="stretch")
     with right:
-        st.subheader("Site Ã— severity heatmap")
+        st.subheader("Site x severity heatmap")
         heat = view.groupby(["site", "severity"], as_index=False).size()
         chart = (
             alt.Chart(heat)
@@ -189,12 +189,12 @@ with site_tab:
     summaries = build_summaries(view)
     sites = summaries["site_risk_summary"]
     st.subheader("Comparative site risk index")
-    st.caption("35% high-risk share Â· 20% critical volume Â· 20% p90 response Â· 15% unresolved share Â· 10% positive recent trend")
+    st.caption("35% high-risk share | 20% critical volume | 20% p90 response | 15% unresolved share | 10% positive recent trend")
     risk_chart = (
         alt.Chart(sites)
         .mark_bar(cornerRadiusEnd=4)
         .encode(
-            x=alt.X("risk_score:Q", title="Comparative risk score (0â€“100)"),
+            x=alt.X("risk_score:Q", title="Comparative risk score (0-100)"),
             y=alt.Y("site:N", sort="-x", title=None),
             color=alt.Color("risk_score:Q", scale=alt.Scale(range=[GOLD, RED]), legend=None),
             tooltip=["site", "incidents", "critical_incidents", "high_risk_rate", "p90_response_min", "recent_trend_pct", "risk_score"],
@@ -315,9 +315,9 @@ with ai_tab:
         probability = float(load_model().predict_proba(row)[0, 1])
         threshold = metadata["decision_threshold"]
         if probability >= threshold:
-            st.markdown(f'<div class="risk-high"><b>Escalate for priority review</b><br>Estimated high/critical probability: <b>{probability:.1%}</b> Â· decision threshold: {threshold:.0%}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="risk-high"><b>Escalate for priority review</b><br>Estimated high/critical probability: <b>{probability:.1%}</b> | decision threshold: {threshold:.0%}</div>', unsafe_allow_html=True)
         else:
-            st.markdown(f'<div class="risk-low"><b>Standard triage queue</b><br>Estimated high/critical probability: <b>{probability:.1%}</b> Â· decision threshold: {threshold:.0%}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="risk-low"><b>Standard triage queue</b><br>Estimated high/critical probability: <b>{probability:.1%}</b> | decision threshold: {threshold:.0%}</div>', unsafe_allow_html=True)
         st.caption("This proof-of-concept output supports triage only. A security professional remains accountable for escalation decisions.")
 
     left, right = st.columns(2)
@@ -354,14 +354,14 @@ with governance_tab:
         ("5. Model governance", "Monitor recall, false-alert burden, calibration, site-level fairness, and drift; retrain only after approved review."),
     ]
     for title, body in recommendations:
-        st.markdown(f"**{title}** â€” {body}")
+        st.markdown(f"**{title}** - {body}")
 
     st.subheader("Responsible-use limitations")
     for item in [
         "This is a curated 2,000-row assessment sample, not a production deployment dataset.",
         "Incident type strongly encodes the severity label, inflating apparent predictability.",
         "Site counts cannot be normalized without population or activity exposure data.",
-        "The model should supportâ€”not automateâ€”security escalation decisions.",
+        "The model should support, not automate, security escalation decisions.",
         "Prospective validation on future incidents is required before operational use.",
     ]:
         st.markdown(f"- {item}")
