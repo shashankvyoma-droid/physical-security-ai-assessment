@@ -237,12 +237,12 @@ def generate():
     story += [Paragraph("7. Actionable roadmap", styles["H1"])]
     roadmap = [
         ["Horizon", "Action", "Success measure"],
-        ["0–30 days", "Define severity-specific SLAs; review Dublin critical cases; standardize closure reasons.", "Approved SLA and site action plan"],
-        ["30–60 days", "Run AI triage in shadow mode; compare model queue with analyst decisions.", "Recall, precision, alert load, overrides"],
-        ["60–90 days", "Add timestamps, zones, staffing, footfall, impact, narratives, and exposure denominators.", "Improved data completeness and normalized rates"],
-        ["90+ days", "Controlled pilot with human approval, drift monitoring, quarterly governance review.", "Faster high-risk response without alert fatigue"],
+        [Paragraph("0-30 days", styles["Small"]), Paragraph("Define severity-specific SLAs; review Dublin critical cases; standardize closure reasons.", styles["Small"]), Paragraph("Approved SLA and site action plan", styles["Small"])],
+        [Paragraph("30-60 days", styles["Small"]), Paragraph("Run AI triage in shadow mode; compare model queue with analyst decisions.", styles["Small"]), Paragraph("Recall, precision, alert load and overrides", styles["Small"])],
+        [Paragraph("60-90 days", styles["Small"]), Paragraph("Add timestamps, zones, staffing, footfall, impact, narratives and exposure denominators.", styles["Small"]), Paragraph("Improved data completeness and normalized rates", styles["Small"])],
+        [Paragraph("90+ days", styles["Small"]), Paragraph("Controlled pilot with human approval, drift monitoring and quarterly governance review.", styles["Small"]), Paragraph("Faster high-risk response without alert fatigue", styles["Small"])],
     ]
-    story += [styled_table(roadmap, widths=[25 * mm, 84 * mm, 45 * mm], font_size=8.3), Spacer(1, 8 * mm)]
+    story += [styled_table(roadmap, widths=[23 * mm, 78 * mm, 53 * mm], font_size=8.3), Spacer(1, 8 * mm)]
     story += [Paragraph("Final recommendation", styles["H2"]), Paragraph("Treat the model as a prioritization layer within an accountable operating process. The strongest near-term value comes from combining transparent analytics, consistent response targets, richer incident capture, and human-reviewed risk scoring—not from autonomous security decisions.", styles["Callout"])]
     story += [Paragraph("Supporting artefacts", styles["H2"])]
     story += bullets(["Interactive Streamlit dashboard with filters and intake prediction.", "Reproducible cleaning, analysis, model training, and report scripts.", "Cleaned dataset, quality report, site summaries, model artefacts, and test predictions.", "README, notebook walkthrough, and reproduction instructions."], styles)
