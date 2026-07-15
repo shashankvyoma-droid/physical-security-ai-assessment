@@ -35,13 +35,26 @@ st.markdown(
     <style>
     .stApp {{ background: {LIGHT}; }}
     [data-testid="stSidebar"] {{ background: {NAVY}; }}
-    [data-testid="stSidebar"] * {{ color: white; }}
+    [data-testid="stSidebar"] h1,
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3,
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] p {{ color: white !important; }}
+    [data-testid="stSidebar"] input {{ color: {NAVY} !important; -webkit-text-fill-color: {NAVY} !important; }}
+    [data-testid="stSidebar"] input::placeholder {{ color: #65758B !important; opacity: 1 !important; }}
+    [data-testid="stSidebar"] [data-baseweb="select"] *,
+    [data-testid="stSidebar"] [data-baseweb="input"] * {{ color: {NAVY} !important; -webkit-text-fill-color: {NAVY} !important; }}
+    [data-testid="stSidebar"] [data-baseweb="tag"] {{ background: #DCEBFA !important; border: 1px solid #A9C7E5 !important; }}
+    [data-testid="stSidebar"] svg {{ fill: {NAVY} !important; color: {NAVY} !important; }}
     .hero {{ padding: 1.2rem 1.5rem; border-radius: 14px; background: linear-gradient(115deg, {NAVY}, {BLUE}); color: white; margin-bottom: 1rem; }}
     .hero h1 {{ margin: 0; font-size: 2rem; }}
     .hero p {{ margin: .35rem 0 0; opacity: .88; }}
     .callout {{ padding: .9rem 1rem; border-left: 4px solid {GOLD}; background: white; border-radius: 8px; margin: .5rem 0; }}
     .risk-high {{ padding: 1rem; border-radius: 12px; background: #FDECEC; border: 1px solid #F5B7B1; }}
     .risk-low {{ padding: 1rem; border-radius: 12px; background: #EAF7F2; border: 1px solid #A9DFBF; }}
+    .model-banner {{ display: flex; align-items: baseline; gap: .8rem; padding: .8rem 1rem; margin: .35rem 0 .8rem; background: white; border: 1px solid #DFE7F1; border-left: 5px solid {BLUE}; border-radius: 10px; }}
+    .model-banner span {{ color: #5A6878; font-size: .9rem; }}
+    .model-banner strong {{ color: {NAVY}; font-size: 1.35rem; }}
     div[data-testid="stMetric"] {{ background: white; border: 1px solid #DFE7F1; padding: .8rem; border-radius: 12px; }}
     </style>
     """,
@@ -204,17 +217,22 @@ with site_tab:
     st.altair_chart(risk_chart, width="stretch")
 
     st.subheader("Risk versus response")
+    st.caption("Bubble size represents incident volume; color represents the comparative risk score. Hover over a site for exact values.")
     scatter = (
         alt.Chart(sites)
         .mark_circle(opacity=0.82, stroke="white", strokeWidth=1)
         .encode(
             x=alt.X("avg_response_min:Q", title="Average response time (minutes)", scale=alt.Scale(zero=False)),
             y=alt.Y("high_risk_rate:Q", title="High / critical incidents (%)", scale=alt.Scale(zero=False)),
-            size=alt.Size("incidents:Q", legend=alt.Legend(title="Incident volume")),
-            color=alt.Color("risk_score:Q", scale=alt.Scale(range=[GOLD, RED]), title="Risk score"),
+            size=alt.Size("incidents:Q", scale=alt.Scale(range=[120, 650]), legend=None),
+            color=alt.Color(
+                "risk_score:Q",
+                scale=alt.Scale(range=[GOLD, RED]),
+                legend=alt.Legend(title="Risk score", orient="top", direction="horizontal", gradientLength=180),
+            ),
             tooltip=["site", "incidents", "high_risk_rate", "avg_response_min", "risk_score"],
         )
-        .properties(height=380)
+        .properties(height=410)
     )
     labels = scatter.mark_text(align="left", baseline="middle", dx=8, size=12).encode(text="site:N", size=alt.value(12), color=alt.value(NAVY))
     st.altair_chart(scatter + labels, width="stretch")
@@ -279,14 +297,18 @@ with ai_tab:
     importance = pd.read_csv(ROOT / "models" / "feature_importance.csv").head(15)
     metrics = metadata["test_metrics"]
     st.subheader("High / critical incident triage model")
-    c1, c2, c3, c4, c5 = st.columns(5)
-    c1.metric("Selected model", metadata["selected_model"])
-    c2.metric("Recall", pct(100 * metrics["recall"]))
-    c3.metric("Precision", pct(100 * metrics["precision"]))
-    c4.metric("PR-AUC", f"{metrics['pr_auc']:.3f}")
-    c5.metric("ROC-AUC", f"{metrics['roc_auc']:.3f}")
+    st.markdown(
+        f'<div class="model-banner"><span>Selected model</span><strong>{metadata["selected_model"]}</strong></div>',
+        unsafe_allow_html=True,
+    )
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Recall", pct(100 * metrics["recall"]))
+    c2.metric("Precision", pct(100 * metrics["precision"]))
+    c3.metric("PR-AUC", f"{metrics['pr_auc']:.3f}")
+    c4.metric("ROC-AUC", f"{metrics['roc_auc']:.3f}")
 
     st.markdown('<div class="callout"><b>Validation design:</b> Train on the earliest 60%, tune the decision threshold on the next 20%, and report once on the latest 20%. Severity, outcome, response time, and Incident ID are excluded from inputs.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="callout"><b>Why Random Forest?</b> It produced the highest latest-period recall (81.8%) among the trained candidates while meeting the operating requirement of approximately 70% precision at the validation-selected threshold. Logistic Regression was slightly stronger on F1 and ranking metrics, so the choice reflects the security objective of catching more High/Critical cases—not universal model superiority.</div>', unsafe_allow_html=True)
 
     st.markdown("### Try an intake prediction")
     with st.form("risk_prediction"):
