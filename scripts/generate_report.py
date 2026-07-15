@@ -245,7 +245,7 @@ def generate():
     story += [styled_table(roadmap, widths=[25 * mm, 84 * mm, 45 * mm], font_size=8.3), Spacer(1, 8 * mm)]
     story += [Paragraph("Final recommendation", styles["H2"]), Paragraph("Treat the model as a prioritization layer within an accountable operating process. The strongest near-term value comes from combining transparent analytics, consistent response targets, richer incident capture, and human-reviewed risk scoring—not from autonomous security decisions.", styles["Callout"])]
     story += [Paragraph("Supporting artefacts", styles["H2"])]
-    story += bullets(["Interactive Streamlit dashboard with filters and intake prediction.", "Reproducible cleaning, analysis, model training, and report scripts.", "Cleaned dataset, quality report, site summaries, model artefacts, and test predictions.", "README, notebook walkthrough, deployment instructions, and interview preparation guide."], styles)
+    story += bullets(["Interactive Streamlit dashboard with filters and intake prediction.", "Reproducible cleaning, analysis, model training, and report scripts.", "Cleaned dataset, quality report, site summaries, model artefacts, and test predictions.", "README, notebook walkthrough, and reproduction instructions."], styles)
 
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
     print(f"Generated {pdf_path}")

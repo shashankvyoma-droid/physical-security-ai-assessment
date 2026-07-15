@@ -3,4 +3,7 @@ __pycache__/
 .venv/
 .streamlit/secrets.toml
 .ipynb_checkpoints/
-
+submission/
+reports/INTERVIEW_PREPARATION.md
+reports/SUBMISSION_EMAIL.md
+reports/report_preview_page1.png

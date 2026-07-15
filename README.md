@@ -77,7 +77,7 @@ This section records quality checks, data limitations, responsible-use controls 
 |-- models/                               # Trained pipeline, metrics, predictions
 |-- notebooks/                            # Guided reproducible walkthrough
 |-- outputs/analysis/                     # EDA and risk-score summaries
-|-- reports/                              # Executive PDF and interview guide
+|-- reports/                              # Executive PDF report
 |-- scripts/                              # Pipeline, training, report generation
 `-- src/                                  # Reusable preparation, analysis, modelling
 ```
@@ -105,16 +105,6 @@ Records are ordered chronologically: the earliest 60% train candidate models, th
 ## Risk-index definition
 
 The site index weights normalized components: 35% high-risk share, 20% Critical count, 20% 90th-percentile response time, 15% under-investigation share, and 10% positive recent trend. It is a comparative prioritization aid, not a probability or causal safety measure.
-
-## Deployment
-
-1. Push this folder to a GitHub repository.
-2. Sign in to Streamlit Community Cloud.
-3. Create an app from the repository and select `streamlit_app.py`.
-4. Select Python 3.12 and deploy.
-5. Verify every tab and the prediction form before sharing the URL.
-
-The sample contains no credentials or secrets. Review organizational policy before publicly hosting any real security dataset.
 
 ## Limitations
 
