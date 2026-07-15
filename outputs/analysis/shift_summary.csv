@@ -1,0 +1,4 @@
+shift,incidents,high_risk_rate,critical,avg_response_min,p90_response_min
+Day,928,37.61,80,11.52,18.0
+Evening,482,37.97,30,11.3,17.0
+Night,590,41.36,55,11.93,18.0

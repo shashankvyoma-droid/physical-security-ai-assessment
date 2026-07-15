@@ -1,0 +1,56 @@
+{
+  "selected_model": "Random Forest",
+  "target_definition": "1 = High or Critical severity; 0 = Low or Medium severity",
+  "features": [
+    "site",
+    "incident_type",
+    "shift",
+    "badge_access",
+    "cctv_alert",
+    "visitor",
+    "month",
+    "day_of_week",
+    "is_weekend"
+  ],
+  "leakage_exclusions": [
+    "severity",
+    "outcome",
+    "response_time_min",
+    "incident_id"
+  ],
+  "split_strategy": "Chronological 60% train, 20% validation, 20% latest test; final model refit on first 80%.",
+  "train_rows": 1200,
+  "validation_rows": 400,
+  "test_rows": 400,
+  "train_date_range": [
+    "2025-01-01",
+    "2025-11-21"
+  ],
+  "validation_date_range": [
+    "2025-11-21",
+    "2026-03-09"
+  ],
+  "test_date_range": [
+    "2026-03-09",
+    "2026-06-30"
+  ],
+  "decision_threshold": 0.55,
+  "threshold_policy": "Chosen on validation data to maximize recall subject to precision >= 0.70.",
+  "test_metrics": {
+    "threshold": 0.55,
+    "accuracy": 0.805,
+    "precision": 0.7035,
+    "recall": 0.8176,
+    "f1": 0.7562,
+    "roc_auc": 0.917,
+    "pr_auc": 0.8775,
+    "brier_score": 0.1199,
+    "confusion_matrix": {
+      "tn": 201,
+      "fp": 51,
+      "fn": 27,
+      "tp": 121
+    }
+  },
+  "caution": "Incident type strongly encodes the supplied severity labels. Performance is therefore an assessment-sample proof of concept, not evidence of production generalization. Validate prospectively on future operational data before deployment."
+}

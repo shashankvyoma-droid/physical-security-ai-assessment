@@ -1,0 +1,42 @@
+{
+  "source_file": "Physical_Security_Incidents.csv",
+  "source_rows": 2000,
+  "clean_rows": 2000,
+  "source_columns": 12,
+  "missing_required_columns": [],
+  "extra_columns": [],
+  "blank_counts": {
+    "incident_id": 0,
+    "date": 0,
+    "site": 0,
+    "country": 0,
+    "incident_type": 0,
+    "severity": 0,
+    "shift": 0,
+    "response_time_min": 0,
+    "badge_access": 0,
+    "cctv_alert": 0,
+    "visitor": 0,
+    "outcome": 0
+  },
+  "duplicate_incident_ids": 0,
+  "duplicate_rows": 0,
+  "invalid_dates": 0,
+  "invalid_response_times": 0,
+  "invalid_categories": {
+    "severity": [],
+    "shift": [],
+    "badge_access": [],
+    "cctv_alert": [],
+    "visitor": [],
+    "outcome": []
+  },
+  "negative_response_times": 0,
+  "site_country_mapping_violations": 0,
+  "date_min": "2025-01-01",
+  "date_max": "2026-06-30",
+  "badge_na_count": 90,
+  "badge_na_interpretation": "Retained as an explicit 'not applicable/unknown' category; not imputed.",
+  "quality_note": "The supplied sample is unusually complete and category-consistent. This may reflect curated or synthetic assessment data, so small differences should not be over-interpreted.",
+  "quality_score": 100.0
+}

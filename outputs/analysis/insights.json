@@ -1,0 +1,32 @@
+{
+  "overview": {
+    "records": 2000,
+    "sites": 8,
+    "countries": 8,
+    "date_min": "2025-01-01",
+    "date_max": "2026-06-30",
+    "high_critical_count": 776,
+    "high_critical_rate": 38.8,
+    "critical_count": 165,
+    "avg_response_min": 11.59,
+    "median_response_min": 12.0,
+    "p90_response_min": 18.0,
+    "confirmed_rate": 55.6
+  },
+  "findings": [
+    "Austin has the highest raw incident volume (269), but volume is not a population-adjusted incident rate.",
+    "Dublin records the most critical incidents (30).",
+    "Dublin ranks first on the transparent comparative risk index (86.8/100).",
+    "Dublin has the slowest average response (11.88 minutes).",
+    "Lost Badge is the most frequent incident type (207 records).",
+    "Suspicious Package has the highest observed high/critical share (100.0%).",
+    "Night shift has the slowest average response (11.93 minutes).",
+    "2026-01 has the highest monthly incident count (129)."
+  ],
+  "limitations": [
+    "No site population, employee count, visitor volume, floor area, or operating-hour exposure is supplied; raw site counts are not true incident rates.",
+    "No precise event timestamp, dispatch timestamp, resolution duration, loss amount, narrative, or guard staffing data is available.",
+    "The unusually complete and balanced sample may be curated or synthetic; small differences should not be treated as causal evidence.",
+    "The risk index is a transparent prioritization aid, not a probability of harm or a replacement for security judgment."
+  ]
+}

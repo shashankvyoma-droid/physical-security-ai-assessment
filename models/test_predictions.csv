@@ -1,0 +1,401 @@
+incident_id,date,site,incident_type,severity,high_risk_target,predicted_probability,predicted_high_risk
+INC01697,2026-03-09,Austin,Visitor Policy Violation,Medium,0,0.166709,0
+INC00253,2026-03-10,Berlin,Visitor Policy Violation,Low,0,0.147959,0
+INC00680,2026-03-10,Tokyo,Visitor Policy Violation,Low,0,0.167523,0
+INC00745,2026-03-10,Austin,Badge Misuse,Medium,0,0.591221,1
+INC00993,2026-03-10,Singapore,Visitor Policy Violation,Low,0,0.144704,0
+INC01787,2026-03-10,Sydney,Badge Misuse,Medium,0,0.567922,1
+INC00156,2026-03-11,Sydney,Badge Misuse,High,1,0.583959,1
+INC00867,2026-03-12,Berlin,CCTV False Alarm,Low,0,0.153685,0
+INC01025,2026-03-12,Berlin,Visitor Policy Violation,Low,0,0.153762,0
+INC01708,2026-03-12,Tokyo,Lost Badge,Low,0,0.150334,0
+INC00248,2026-03-13,Austin,CCTV Offline,Medium,0,0.187792,0
+INC00695,2026-03-13,Tokyo,Suspicious Package,Critical,1,0.867915,1
+INC01863,2026-03-13,Austin,CCTV False Alarm,Low,0,0.155734,0
+INC00032,2026-03-14,Dublin,Door Forced Open,Critical,1,0.854207,1
+INC00616,2026-03-14,Bangalore,Emergency Exit Misuse,High,1,0.590315,1
+INC01409,2026-03-14,Berlin,Lost Badge,Medium,0,0.135958,0
+INC00059,2026-03-15,London,Suspicious Package,Critical,1,0.863744,1
+INC00259,2026-03-15,Singapore,Lost Badge,Medium,0,0.15042,0
+INC00638,2026-03-15,Sydney,Lost Badge,Medium,0,0.143663,0
+INC00950,2026-03-15,Dublin,Door Forced Open,High,1,0.857382,1
+INC01614,2026-03-15,Austin,Door Forced Open,Critical,1,0.863382,1
+INC00071,2026-03-16,Sydney,CCTV False Alarm,Low,0,0.188979,0
+INC00118,2026-03-16,Tokyo,Unauthorized Access,High,1,0.560343,1
+INC01716,2026-03-16,Tokyo,Suspicious Person,Medium,0,0.458882,0
+INC00113,2026-03-17,Berlin,Suspicious Package,High,1,0.868412,1
+INC00962,2026-03-17,Tokyo,Badge Misuse,Medium,0,0.573256,1
+INC01562,2026-03-17,Singapore,Suspicious Person,Medium,0,0.488295,0
+INC01851,2026-03-17,Singapore,Suspicious Package,Critical,1,0.867078,1
+INC00882,2026-03-18,Austin,Visitor Policy Violation,Medium,0,0.158918,0
+INC00938,2026-03-18,Sydney,Door Forced Open,Critical,1,0.862473,1
+INC01212,2026-03-18,Sydney,Suspicious Package,Critical,1,0.876049,1
+INC01999,2026-03-18,Bangalore,Lost Badge,Medium,0,0.131471,0
+INC00693,2026-03-19,Austin,Unauthorized Access,High,1,0.524462,0
+INC01196,2026-03-19,Sydney,CCTV False Alarm,Low,0,0.169719,0
+INC01253,2026-03-19,Sydney,CCTV False Alarm,Low,0,0.171704,0
+INC01373,2026-03-19,Sydney,Emergency Exit Misuse,High,1,0.594222,1
+INC01318,2026-03-20,Singapore,Suspicious Person,High,1,0.489861,0
+INC00908,2026-03-21,Austin,CCTV False Alarm,Low,0,0.167512,0
+INC01222,2026-03-21,Tokyo,Badge Misuse,High,1,0.587796,1
+INC01791,2026-03-21,Sydney,Tailgating,High,1,0.613804,1
+INC00060,2026-03-22,Berlin,Badge Misuse,High,1,0.559705,1
+INC00980,2026-03-22,London,Suspicious Package,High,1,0.866286,1
+INC01858,2026-03-22,Sydney,Visitor Policy Violation,Medium,0,0.163478,0
+INC00684,2026-03-23,Dublin,Suspicious Package,High,1,0.885263,1
+INC01390,2026-03-23,London,Visitor Policy Violation,Medium,0,0.189375,0
+INC01422,2026-03-23,Dublin,CCTV False Alarm,Low,0,0.164132,0
+INC01704,2026-03-23,Berlin,CCTV False Alarm,Low,0,0.168512,0
+INC00229,2026-03-24,London,CCTV Offline,Medium,0,0.176065,0
+INC00696,2026-03-24,Sydney,CCTV Offline,Medium,0,0.192885,0
+INC00957,2026-03-24,Austin,CCTV Offline,Medium,0,0.182616,0
+INC00965,2026-03-24,Tokyo,Lost Badge,Low,0,0.122889,0
+INC01015,2026-03-24,Sydney,CCTV Offline,Medium,0,0.18568,0
+INC01665,2026-03-24,Berlin,Door Forced Open,Critical,1,0.844421,1
+INC01672,2026-03-24,Singapore,Lost Badge,Low,0,0.133115,0
+INC00159,2026-03-25,Austin,Tailgating,Medium,0,0.560513,1
+INC00392,2026-03-25,Dublin,Suspicious Package,Critical,1,0.885339,1
+INC00714,2026-03-25,Austin,CCTV Offline,Medium,0,0.190738,0
+INC01294,2026-03-25,London,Lost Badge,Medium,0,0.12092,0
+INC01499,2026-03-25,Berlin,Suspicious Person,Medium,0,0.49476,0
+INC01964,2026-03-25,Dublin,Suspicious Package,High,1,0.874709,1
+INC00761,2026-03-26,Tokyo,CCTV Offline,Medium,0,0.17868,0
+INC00884,2026-03-26,Dublin,Unauthorized Access,High,1,0.561009,1
+INC01634,2026-03-26,London,Door Forced Open,Critical,1,0.85632,1
+INC00558,2026-03-27,Sydney,Visitor Policy Violation,Medium,0,0.165538,0
+INC00729,2026-03-27,Berlin,Suspicious Person,High,1,0.506583,0
+INC00772,2026-03-27,Tokyo,Tailgating,Medium,0,0.632367,1
+INC01218,2026-03-27,Tokyo,Tailgating,Medium,0,0.624274,1
+INC01439,2026-03-27,London,Door Forced Open,Critical,1,0.862643,1
+INC01679,2026-03-27,Tokyo,CCTV Offline,Medium,0,0.190168,0
+INC01801,2026-03-27,Bangalore,Badge Misuse,Medium,0,0.590488,1
+INC00362,2026-03-28,Sydney,CCTV False Alarm,Low,0,0.18441,0
+INC00610,2026-03-28,London,Tailgating,High,1,0.618728,1
+INC00820,2026-03-28,Tokyo,Visitor Policy Violation,Medium,0,0.152802,0
+INC01277,2026-03-28,Austin,Suspicious Package,High,1,0.863054,1
+INC01755,2026-03-28,Bangalore,Badge Misuse,Medium,0,0.550341,1
+INC01861,2026-03-28,Berlin,Suspicious Package,Critical,1,0.865135,1
+INC00722,2026-03-29,Austin,Visitor Policy Violation,Medium,0,0.161152,0
+INC00762,2026-03-29,Tokyo,Unauthorized Access,Medium,0,0.516998,0
+INC00854,2026-03-29,Dublin,CCTV False Alarm,Low,0,0.172763,0
+INC01092,2026-03-29,Tokyo,Suspicious Person,High,1,0.491508,0
+INC00047,2026-03-30,Austin,CCTV False Alarm,Low,0,0.164346,0
+INC00329,2026-03-30,Singapore,Door Forced Open,Critical,1,0.856765,1
+INC00380,2026-03-30,Bangalore,Tailgating,High,1,0.591293,1
+INC00736,2026-03-30,Berlin,Badge Misuse,Medium,0,0.560553,1
+INC01834,2026-03-30,Singapore,Lost Badge,Low,0,0.125919,0
+INC00297,2026-03-31,London,Tailgating,Medium,0,0.568974,1
+INC00617,2026-03-31,Sydney,CCTV Offline,Medium,0,0.18205,0
+INC01348,2026-03-31,Austin,CCTV False Alarm,Low,0,0.148171,0
+INC00232,2026-04-01,London,Unauthorized Access,Medium,0,0.592,1
+INC00766,2026-04-01,Dublin,Badge Misuse,High,1,0.584019,1
+INC00858,2026-04-01,London,CCTV False Alarm,Low,0,0.161286,0
+INC00864,2026-04-01,Bangalore,CCTV Offline,Medium,0,0.157807,0
+INC01789,2026-04-01,Bangalore,Suspicious Package,Critical,1,0.870437,1
+INC01827,2026-04-01,Berlin,Badge Misuse,Medium,0,0.54251,0
+INC00615,2026-04-02,Dublin,Lost Badge,Low,0,0.124496,0
+INC00975,2026-04-02,Austin,Lost Badge,Medium,0,0.111387,0
+INC01359,2026-04-02,Berlin,Unauthorized Access,High,1,0.565928,1
+INC01673,2026-04-02,Dublin,Suspicious Package,Critical,1,0.870932,1
+INC00420,2026-04-03,Berlin,Door Forced Open,High,1,0.872752,1
+INC01340,2026-04-03,Austin,Badge Misuse,High,1,0.583304,1
+INC01824,2026-04-03,Austin,Door Forced Open,High,1,0.877058,1
+INC01914,2026-04-03,London,Unauthorized Access,High,1,0.606597,1
+INC01580,2026-04-04,Tokyo,Visitor Policy Violation,Low,0,0.151966,0
+INC00735,2026-04-05,Austin,CCTV Offline,Medium,0,0.170913,0
+INC01574,2026-04-05,Dublin,Visitor Policy Violation,Low,0,0.159048,0
+INC00549,2026-04-06,Austin,CCTV False Alarm,Low,0,0.163591,0
+INC01586,2026-04-06,Tokyo,Visitor Policy Violation,Low,0,0.164621,0
+INC00133,2026-04-07,Sydney,CCTV Offline,Medium,0,0.176678,0
+INC00230,2026-04-07,Tokyo,Tailgating,High,1,0.556927,1
+INC00254,2026-04-07,Sydney,Suspicious Person,Medium,0,0.514656,0
+INC00679,2026-04-07,Bangalore,Suspicious Person,High,1,0.483994,0
+INC00507,2026-04-08,Bangalore,CCTV Offline,Medium,0,0.157807,0
+INC01549,2026-04-08,Austin,Lost Badge,Low,0,0.14528,0
+INC01594,2026-04-08,London,Emergency Exit Misuse,Medium,0,0.546749,0
+INC01306,2026-04-09,Austin,CCTV False Alarm,Low,0,0.151454,0
+INC01901,2026-04-09,Tokyo,Visitor Policy Violation,Low,0,0.147677,0
+INC01071,2026-04-10,Sydney,Emergency Exit Misuse,Medium,0,0.613446,1
+INC00023,2026-04-11,Bangalore,Visitor Policy Violation,Medium,0,0.163739,0
+INC00106,2026-04-11,Berlin,Suspicious Person,Medium,0,0.522405,0
+INC00405,2026-04-11,Singapore,CCTV Offline,Medium,0,0.169442,0
+INC00642,2026-04-11,Berlin,CCTV False Alarm,Low,0,0.160417,0
+INC00984,2026-04-11,Tokyo,CCTV False Alarm,Low,0,0.149024,0
+INC01008,2026-04-11,Tokyo,Suspicious Package,Critical,1,0.847835,1
+INC01301,2026-04-11,Sydney,Suspicious Package,High,1,0.88344,1
+INC01408,2026-04-11,London,Lost Badge,Medium,0,0.139561,0
+INC01541,2026-04-11,Singapore,Door Forced Open,High,1,0.843279,1
+INC00094,2026-04-13,Dublin,Emergency Exit Misuse,High,1,0.562786,1
+INC01254,2026-04-13,London,Suspicious Person,High,1,0.509285,0
+INC01725,2026-04-13,Tokyo,Lost Badge,Low,0,0.135867,0
+INC01857,2026-04-13,Sydney,Visitor Policy Violation,Medium,0,0.200897,0
+INC01237,2026-04-14,Bangalore,CCTV Offline,Medium,0,0.178505,0
+INC01892,2026-04-14,London,Unauthorized Access,Medium,0,0.512255,0
+INC01919,2026-04-14,Berlin,CCTV Offline,Medium,0,0.167536,0
+INC00009,2026-04-15,Tokyo,Lost Badge,Medium,0,0.126051,0
+INC01100,2026-04-15,Berlin,CCTV Offline,Medium,0,0.176095,0
+INC00336,2026-04-16,Dublin,Visitor Policy Violation,Medium,0,0.158217,0
+INC00573,2026-04-16,London,Badge Misuse,High,1,0.538338,0
+INC01442,2026-04-16,Sydney,Door Forced Open,Critical,1,0.857339,1
+INC01750,2026-04-16,Tokyo,Visitor Policy Violation,Medium,0,0.169968,0
+INC00701,2026-04-17,London,Tailgating,Medium,0,0.656581,1
+INC00941,2026-04-17,London,Unauthorized Access,Medium,0,0.607898,1
+INC01141,2026-04-17,Austin,Badge Misuse,High,1,0.61742,1
+INC01685,2026-04-17,Singapore,Badge Misuse,High,1,0.55667,1
+INC01456,2026-04-18,Singapore,Suspicious Person,High,1,0.488777,0
+INC01982,2026-04-18,Berlin,Unauthorized Access,Medium,0,0.549177,0
+INC00675,2026-04-19,Bangalore,Tailgating,Medium,0,0.596487,1
+INC01479,2026-04-20,Tokyo,Visitor Policy Violation,Low,0,0.20621,0
+INC01949,2026-04-20,Sydney,Lost Badge,Low,0,0.138547,0
+INC00102,2026-04-21,Singapore,Emergency Exit Misuse,Medium,0,0.512365,0
+INC00743,2026-04-21,Berlin,Unauthorized Access,High,1,0.524921,0
+INC00779,2026-04-21,Berlin,Emergency Exit Misuse,High,1,0.552178,1
+INC00591,2026-04-22,Bangalore,Suspicious Person,Medium,0,0.494466,0
+INC01473,2026-04-22,London,CCTV False Alarm,Low,0,0.15973,0
+INC00173,2026-04-23,Tokyo,CCTV Offline,Medium,0,0.161306,0
+INC00382,2026-04-23,Austin,Door Forced Open,Critical,1,0.867017,1
+INC01862,2026-04-23,Tokyo,Lost Badge,Low,0,0.122051,0
+INC00566,2026-04-24,Austin,Unauthorized Access,Medium,0,0.54856,0
+INC00769,2026-04-24,London,Badge Misuse,Medium,0,0.582881,1
+INC00782,2026-04-24,Bangalore,CCTV False Alarm,Low,0,0.164667,0
+INC00075,2026-04-25,Dublin,Suspicious Package,High,1,0.862361,1
+INC00535,2026-04-25,Sydney,Suspicious Package,Critical,1,0.873613,1
+INC00709,2026-04-25,Singapore,Suspicious Package,High,1,0.871258,1
+INC00945,2026-04-25,Berlin,CCTV False Alarm,Low,0,0.160417,0
+INC01026,2026-04-25,Sydney,Tailgating,High,1,0.629081,1
+INC00364,2026-04-26,Bangalore,Tailgating,Medium,0,0.56329,1
+INC00452,2026-04-26,Bangalore,CCTV Offline,Medium,0,0.163964,0
+INC01312,2026-04-26,London,CCTV Offline,Medium,0,0.17201,0
+INC01427,2026-04-26,Bangalore,Visitor Policy Violation,Low,0,0.165318,0
+INC00594,2026-04-27,Bangalore,Visitor Policy Violation,Low,0,0.172368,0
+INC01224,2026-04-27,Bangalore,Door Forced Open,High,1,0.870923,1
+INC01227,2026-04-27,Bangalore,Tailgating,High,1,0.610877,1
+INC01792,2026-04-27,Tokyo,Suspicious Package,High,1,0.874189,1
+INC01860,2026-04-27,Singapore,Badge Misuse,High,1,0.507155,0
+INC01990,2026-04-27,London,CCTV Offline,Medium,0,0.176152,0
+INC01625,2026-04-28,Sydney,Badge Misuse,Medium,0,0.550189,1
+INC01873,2026-04-28,Berlin,Lost Badge,Medium,0,0.150327,0
+INC00302,2026-04-29,Bangalore,Suspicious Person,Medium,0,0.524942,0
+INC00621,2026-04-29,Bangalore,Tailgating,Medium,0,0.608161,1
+INC01117,2026-04-29,Bangalore,Door Forced Open,Critical,1,0.866942,1
+INC01371,2026-04-29,London,Suspicious Package,High,1,0.857759,1
+INC00154,2026-04-30,Bangalore,Badge Misuse,High,1,0.551794,1
+INC00368,2026-04-30,Singapore,CCTV False Alarm,Low,0,0.15514,0
+INC00852,2026-04-30,Bangalore,CCTV Offline,Medium,0,0.181766,0
+INC01455,2026-04-30,Bangalore,Visitor Policy Violation,Medium,0,0.163787,0
+INC01846,2026-04-30,Dublin,Emergency Exit Misuse,High,1,0.561002,1
+INC01709,2026-05-01,Sydney,Visitor Policy Violation,Medium,0,0.173949,0
+INC01835,2026-05-01,Austin,Tailgating,High,1,0.653507,1
+INC00226,2026-05-02,London,CCTV Offline,Medium,0,0.171316,0
+INC00537,2026-05-02,Tokyo,CCTV False Alarm,Low,0,0.156463,0
+INC00635,2026-05-02,Bangalore,Unauthorized Access,Medium,0,0.584356,1
+INC00795,2026-05-02,Singapore,Door Forced Open,High,1,0.841496,1
+INC01991,2026-05-02,Singapore,Lost Badge,Medium,0,0.135093,0
+INC00225,2026-05-03,Bangalore,Unauthorized Access,High,1,0.548106,0
+INC00513,2026-05-03,Sydney,Lost Badge,Low,0,0.13843,0
+INC01366,2026-05-03,Singapore,Unauthorized Access,Medium,0,0.550777,1
+INC00501,2026-05-04,Bangalore,Badge Misuse,Medium,0,0.566272,1
+INC01779,2026-05-04,Bangalore,Unauthorized Access,High,1,0.588992,1
+INC01392,2026-05-05,Singapore,CCTV False Alarm,Low,0,0.142723,0
+INC01959,2026-05-05,Bangalore,Unauthorized Access,Medium,0,0.532095,0
+INC00188,2026-05-06,London,Badge Misuse,High,1,0.566357,1
+INC00409,2026-05-06,Berlin,Badge Misuse,Medium,0,0.549025,0
+INC01869,2026-05-06,Austin,Tailgating,Medium,0,0.602042,1
+INC00318,2026-05-07,Berlin,Unauthorized Access,High,1,0.578431,1
+INC00859,2026-05-07,Sydney,Emergency Exit Misuse,Medium,0,0.556293,1
+INC01281,2026-05-07,Bangalore,Badge Misuse,Medium,0,0.579523,1
+INC01332,2026-05-07,Dublin,Badge Misuse,High,1,0.556157,1
+INC01367,2026-05-07,Dublin,Suspicious Person,Medium,0,0.527077,0
+INC00822,2026-05-08,Sydney,Suspicious Person,High,1,0.526964,0
+INC00099,2026-05-09,Dublin,Door Forced Open,Critical,1,0.865546,1
+INC00415,2026-05-09,Tokyo,Tailgating,High,1,0.591498,1
+INC00451,2026-05-09,Berlin,CCTV Offline,Medium,0,0.16985,0
+INC00523,2026-05-09,Sydney,CCTV False Alarm,Low,0,0.177984,0
+INC00746,2026-05-09,Austin,Tailgating,Medium,0,0.618312,1
+INC00812,2026-05-09,Tokyo,Door Forced Open,Critical,1,0.854354,1
+INC01019,2026-05-09,London,Badge Misuse,Medium,0,0.554225,1
+INC01186,2026-05-09,Sydney,Emergency Exit Misuse,Medium,0,0.630209,1
+INC01652,2026-05-09,Dublin,Unauthorized Access,Medium,0,0.519753,0
+INC00419,2026-05-10,Berlin,Lost Badge,Medium,0,0.144661,0
+INC00880,2026-05-10,Singapore,CCTV Offline,Medium,0,0.163672,0
+INC00066,2026-05-11,Tokyo,Unauthorized Access,Medium,0,0.563842,1
+INC01756,2026-05-11,Tokyo,Emergency Exit Misuse,Medium,0,0.569165,1
+INC01920,2026-05-11,Berlin,Emergency Exit Misuse,Medium,0,0.584425,1
+INC00265,2026-05-12,Dublin,Badge Misuse,Medium,0,0.552515,1
+INC00301,2026-05-12,Bangalore,Visitor Policy Violation,Medium,0,0.174119,0
+INC00686,2026-05-12,Sydney,Tailgating,High,1,0.617967,1
+INC00839,2026-05-12,Tokyo,Emergency Exit Misuse,High,1,0.501169,0
+INC01554,2026-05-12,Austin,Visitor Policy Violation,Low,0,0.149374,0
+INC01833,2026-05-12,Bangalore,Suspicious Package,Critical,1,0.871635,1
+INC00015,2026-05-13,Bangalore,Lost Badge,Low,0,0.13367,0
+INC00022,2026-05-13,Bangalore,Unauthorized Access,Medium,0,0.536447,0
+INC00052,2026-05-13,Singapore,CCTV False Alarm,Low,0,0.165591,0
+INC01049,2026-05-13,Bangalore,Badge Misuse,High,1,0.590596,1
+INC01250,2026-05-13,Dublin,Badge Misuse,Medium,0,0.562204,1
+INC01891,2026-05-13,Dublin,Suspicious Person,Medium,0,0.530728,0
+INC01204,2026-05-14,Bangalore,Emergency Exit Misuse,High,1,0.580708,1
+INC00404,2026-05-15,Austin,CCTV False Alarm,Low,0,0.161508,0
+INC00443,2026-05-15,Dublin,Badge Misuse,High,1,0.591742,1
+INC00485,2026-05-15,Austin,Door Forced Open,Critical,1,0.872048,1
+INC00881,2026-05-15,Singapore,Suspicious Person,Medium,0,0.546369,0
+INC01438,2026-05-15,Tokyo,Tailgating,Medium,0,0.646965,1
+INC00186,2026-05-16,Dublin,Suspicious Person,Medium,0,0.510825,0
+INC00201,2026-05-16,Sydney,Unauthorized Access,Medium,0,0.557831,1
+INC01220,2026-05-16,London,Door Forced Open,High,1,0.848211,1
+INC01291,2026-05-16,London,Emergency Exit Misuse,Medium,0,0.583837,1
+INC01370,2026-05-16,Bangalore,Suspicious Package,High,1,0.858899,1
+INC01947,2026-05-16,Singapore,CCTV Offline,Medium,0,0.167707,0
+INC00085,2026-05-17,Dublin,Tailgating,High,1,0.622448,1
+INC00871,2026-05-17,London,Door Forced Open,Critical,1,0.858415,1
+INC01119,2026-05-17,Dublin,Door Forced Open,Critical,1,0.857641,1
+INC01153,2026-05-17,Bangalore,CCTV False Alarm,Low,0,0.156761,0
+INC01402,2026-05-17,Austin,CCTV False Alarm,Low,0,0.157198,0
+INC01705,2026-05-17,Dublin,Badge Misuse,High,1,0.570864,1
+INC00162,2026-05-18,Sydney,Lost Badge,Medium,0,0.161602,0
+INC00219,2026-05-18,Tokyo,Suspicious Person,High,1,0.507839,0
+INC00238,2026-05-18,Berlin,Badge Misuse,High,1,0.540829,0
+INC00571,2026-05-18,Berlin,Suspicious Package,Critical,1,0.865241,1
+INC01033,2026-05-18,Berlin,Door Forced Open,High,1,0.869724,1
+INC01283,2026-05-18,Berlin,Visitor Policy Violation,Medium,0,0.172311,0
+INC01382,2026-05-18,London,Visitor Policy Violation,Medium,0,0.171742,0
+INC01386,2026-05-18,Bangalore,Suspicious Person,Medium,0,0.491773,0
+INC01453,2026-05-18,Bangalore,Lost Badge,Low,0,0.137622,0
+INC01852,2026-05-18,Sydney,Lost Badge,Low,0,0.137299,0
+INC00255,2026-05-19,Singapore,Visitor Policy Violation,Medium,0,0.148528,0
+INC00639,2026-05-19,Tokyo,Door Forced Open,High,1,0.840081,1
+INC01416,2026-05-19,Berlin,Tailgating,High,1,0.586688,1
+INC01448,2026-05-19,London,Suspicious Person,Medium,0,0.476817,0
+INC01844,2026-05-19,London,CCTV Offline,Medium,0,0.175343,0
+INC00305,2026-05-20,Austin,Suspicious Package,Critical,1,0.867929,1
+INC00433,2026-05-20,London,Unauthorized Access,Medium,0,0.530093,0
+INC01194,2026-05-20,Bangalore,Suspicious Person,High,1,0.493283,0
+INC01839,2026-05-20,Singapore,CCTV Offline,Medium,0,0.16814,0
+INC00356,2026-05-21,Bangalore,Tailgating,Medium,0,0.623102,1
+INC00457,2026-05-21,Bangalore,Lost Badge,Low,0,0.119487,0
+INC00062,2026-05-22,Sydney,Suspicious Package,High,1,0.890919,1
+INC00886,2026-05-23,Dublin,Unauthorized Access,High,1,0.526438,0
+INC01020,2026-05-23,Singapore,CCTV Offline,Medium,0,0.165087,0
+INC01326,2026-05-23,Singapore,CCTV False Alarm,Low,0,0.177933,0
+INC01693,2026-05-23,Austin,Badge Misuse,High,1,0.612683,1
+INC01650,2026-05-24,Bangalore,Lost Badge,Medium,0,0.14239,0
+INC01849,2026-05-24,Singapore,Suspicious Package,High,1,0.865311,1
+INC01850,2026-05-24,Berlin,Door Forced Open,High,1,0.853366,1
+INC00216,2026-05-25,Dublin,Suspicious Person,High,1,0.480375,0
+INC00366,2026-05-25,London,CCTV False Alarm,Low,0,0.172726,0
+INC00519,2026-05-25,Tokyo,Door Forced Open,Critical,1,0.859851,1
+INC01491,2026-05-25,London,Visitor Policy Violation,Medium,0,0.16715,0
+INC01635,2026-05-25,Tokyo,Lost Badge,Medium,0,0.182691,0
+INC01837,2026-05-25,Bangalore,CCTV Offline,Medium,0,0.168561,0
+INC01276,2026-05-26,Tokyo,Unauthorized Access,Medium,0,0.487036,0
+INC01030,2026-05-27,Austin,Lost Badge,Low,0,0.115771,0
+INC01337,2026-05-27,Dublin,Lost Badge,Low,0,0.165487,0
+INC00245,2026-05-28,Tokyo,Visitor Policy Violation,Medium,0,0.15707,0
+INC00662,2026-05-28,London,Visitor Policy Violation,Low,0,0.150192,0
+INC01538,2026-05-28,Bangalore,Lost Badge,Low,0,0.140669,0
+INC00277,2026-05-29,Bangalore,Visitor Policy Violation,Medium,0,0.165896,0
+INC01127,2026-05-29,Berlin,Visitor Policy Violation,Low,0,0.162179,0
+INC01463,2026-05-29,Tokyo,Badge Misuse,Medium,0,0.572508,1
+INC01689,2026-05-29,Singapore,Suspicious Person,High,1,0.493024,0
+INC01817,2026-05-30,Dublin,Visitor Policy Violation,Medium,0,0.189131,0
+INC01940,2026-05-30,Dublin,Visitor Policy Violation,Medium,0,0.164544,0
+INC01951,2026-05-30,Austin,Badge Misuse,Medium,0,0.560388,1
+INC01969,2026-05-30,Singapore,Emergency Exit Misuse,Medium,0,0.58055,1
+INC00602,2026-05-31,Singapore,Badge Misuse,High,1,0.549017,0
+INC00682,2026-05-31,Bangalore,Suspicious Package,Critical,1,0.859974,1
+INC00698,2026-05-31,Dublin,Badge Misuse,High,1,0.570499,1
+INC01134,2026-05-31,Dublin,Lost Badge,Medium,0,0.144644,0
+INC01195,2026-05-31,Dublin,Suspicious Person,Medium,0,0.491282,0
+INC01710,2026-05-31,Dublin,Unauthorized Access,Medium,0,0.537327,0
+INC00351,2026-06-01,Singapore,Door Forced Open,High,1,0.857766,1
+INC00413,2026-06-01,Austin,Unauthorized Access,Medium,0,0.548696,0
+INC01210,2026-06-01,Tokyo,Tailgating,High,1,0.596789,1
+INC01605,2026-06-01,Tokyo,Unauthorized Access,Medium,0,0.584213,1
+INC00200,2026-06-02,Tokyo,Unauthorized Access,Medium,0,0.48367,0
+INC00221,2026-06-02,Singapore,Unauthorized Access,Medium,0,0.48555,0
+INC00717,2026-06-02,Bangalore,Lost Badge,Medium,0,0.128796,0
+INC01543,2026-06-02,Bangalore,Unauthorized Access,Medium,0,0.557576,1
+INC01748,2026-06-02,Tokyo,CCTV False Alarm,Low,0,0.142705,0
+INC00863,2026-06-03,Dublin,Tailgating,Medium,0,0.622123,1
+INC01436,2026-06-03,Tokyo,Badge Misuse,Medium,0,0.576255,1
+INC01956,2026-06-03,Austin,Visitor Policy Violation,Low,0,0.157585,0
+INC00585,2026-06-04,London,CCTV Offline,Medium,0,0.175021,0
+INC00612,2026-06-04,Tokyo,Door Forced Open,High,1,0.849873,1
+INC01527,2026-06-04,Bangalore,Badge Misuse,High,1,0.546658,0
+INC01221,2026-06-05,Singapore,Unauthorized Access,High,1,0.513094,0
+INC01841,2026-06-05,Singapore,Door Forced Open,High,1,0.86377,1
+INC00283,2026-06-06,Dublin,Unauthorized Access,Medium,0,0.526563,0
+INC00244,2026-06-07,London,Tailgating,Medium,0,0.604795,1
+INC00282,2026-06-08,Dublin,Suspicious Package,Critical,1,0.885994,1
+INC00434,2026-06-08,Sydney,Suspicious Package,High,1,0.8849,1
+INC01238,2026-06-08,London,CCTV Offline,Medium,0,0.184748,0
+INC01627,2026-06-08,Bangalore,Badge Misuse,Medium,0,0.540538,0
+INC01692,2026-06-08,Singapore,Tailgating,High,1,0.602313,1
+INC00395,2026-06-09,Singapore,Badge Misuse,Medium,0,0.502138,0
+INC00553,2026-06-09,Tokyo,CCTV Offline,Medium,0,0.154542,0
+INC01017,2026-06-09,London,Door Forced Open,Critical,1,0.858992,1
+INC01320,2026-06-09,Dublin,Visitor Policy Violation,Medium,0,0.146933,0
+INC01476,2026-06-09,Tokyo,Visitor Policy Violation,Medium,0,0.157786,0
+INC00110,2026-06-10,London,CCTV False Alarm,Low,0,0.172902,0
+INC00730,2026-06-10,Sydney,CCTV False Alarm,Low,0,0.195311,0
+INC00873,2026-06-10,Berlin,CCTV False Alarm,Low,0,0.164905,0
+INC01676,2026-06-10,London,Lost Badge,Medium,0,0.146081,0
+INC01235,2026-06-11,Sydney,Unauthorized Access,High,1,0.541412,0
+INC01915,2026-06-11,Dublin,Suspicious Package,Critical,1,0.87081,1
+INC00330,2026-06-12,Berlin,CCTV False Alarm,Low,0,0.182995,0
+INC00877,2026-06-12,Berlin,Emergency Exit Misuse,Medium,0,0.551558,1
+INC01454,2026-06-12,London,CCTV False Alarm,Low,0,0.166735,0
+INC01674,2026-06-12,Austin,Tailgating,Medium,0,0.615912,1
+INC00285,2026-06-13,Tokyo,Unauthorized Access,Medium,0,0.505611,0
+INC00727,2026-06-13,Austin,Visitor Policy Violation,Low,0,0.161957,0
+INC01199,2026-06-13,Austin,Suspicious Package,Critical,1,0.865994,1
+INC01528,2026-06-13,Tokyo,Emergency Exit Misuse,High,1,0.561318,1
+INC01711,2026-06-13,Bangalore,Tailgating,Medium,0,0.614405,1
+INC00063,2026-06-14,Tokyo,Suspicious Person,High,1,0.493563,0
+INC00046,2026-06-15,London,Visitor Policy Violation,Low,0,0.173239,0
+INC01018,2026-06-15,Austin,Visitor Policy Violation,Low,0,0.189614,0
+INC01293,2026-06-15,London,CCTV Offline,Medium,0,0.174989,0
+INC00461,2026-06-18,Tokyo,Door Forced Open,High,1,0.859665,1
+INC01084,2026-06-18,Bangalore,Visitor Policy Violation,Low,0,0.171605,0
+INC01399,2026-06-18,Berlin,Emergency Exit Misuse,Medium,0,0.547928,0
+INC01437,2026-06-18,Dublin,Tailgating,Medium,0,0.652086,1
+INC00529,2026-06-19,Austin,Lost Badge,Low,0,0.146038,0
+INC00592,2026-06-19,Austin,Suspicious Package,Critical,1,0.881859,1
+INC01500,2026-06-19,Austin,Unauthorized Access,High,1,0.578769,1
+INC01526,2026-06-19,Austin,Suspicious Package,High,1,0.891083,1
+INC01731,2026-06-19,Singapore,Door Forced Open,High,1,0.862657,1
+INC01743,2026-06-19,Berlin,Badge Misuse,High,1,0.598034,1
+INC00026,2026-06-20,Bangalore,Suspicious Package,Critical,1,0.860467,1
+INC00629,2026-06-20,Tokyo,Door Forced Open,Critical,1,0.859993,1
+INC01590,2026-06-20,Dublin,Visitor Policy Violation,Low,0,0.185584,0
+INC00223,2026-06-21,Berlin,Door Forced Open,High,1,0.862326,1
+INC00528,2026-06-21,Austin,Lost Badge,Medium,0,0.130761,0
+INC01430,2026-06-21,Tokyo,Suspicious Package,High,1,0.854427,1
+INC01545,2026-06-21,London,CCTV Offline,Medium,0,0.175002,0
+INC01601,2026-06-21,Tokyo,Badge Misuse,High,1,0.517494,0
+INC00902,2026-06-22,Bangalore,CCTV Offline,Medium,0,0.160039,0
+INC01108,2026-06-22,London,Tailgating,High,1,0.612534,1
+INC01610,2026-06-22,Singapore,Visitor Policy Violation,Medium,0,0.163437,0
+INC01540,2026-06-23,Singapore,Lost Badge,Medium,0,0.124997,0
+INC00551,2026-06-24,Sydney,Unauthorized Access,Medium,0,0.595293,1
+INC00878,2026-06-25,Bangalore,Visitor Policy Violation,Medium,0,0.157272,0
+INC01035,2026-06-25,Berlin,Suspicious Package,Critical,1,0.867693,1
+INC00029,2026-06-26,Austin,CCTV False Alarm,Low,0,0.158798,0
+INC01429,2026-06-26,Berlin,Door Forced Open,High,1,0.871792,1
+INC01612,2026-06-26,Tokyo,Door Forced Open,Critical,1,0.853032,1
+INC01953,2026-06-26,Singapore,Badge Misuse,Medium,0,0.555422,1
+INC01967,2026-06-26,London,CCTV False Alarm,Low,0,0.178625,0
+INC01985,2026-06-26,Dublin,Emergency Exit Misuse,High,1,0.577949,1
+INC00212,2026-06-27,Sydney,Tailgating,High,1,0.641862,1
+INC00222,2026-06-27,Bangalore,Tailgating,High,1,0.598917,1
+INC00654,2026-06-28,London,Suspicious Package,High,1,0.866659,1
+INC01239,2026-06-28,Tokyo,CCTV Offline,Medium,0,0.164566,0
+INC01482,2026-06-28,Dublin,Badge Misuse,High,1,0.579247,1
+INC00493,2026-06-29,London,Badge Misuse,High,1,0.548424,0
+INC00603,2026-06-29,Sydney,CCTV Offline,Medium,0,0.162024,0
+INC00738,2026-06-29,Sydney,CCTV Offline,Medium,0,0.176127,0
+INC01962,2026-06-29,Tokyo,CCTV False Alarm,Low,0,0.176635,0
+INC00498,2026-06-30,Austin,Emergency Exit Misuse,Medium,0,0.519014,0
+INC00756,2026-06-30,Dublin,Lost Badge,Low,0,0.135628,0
+INC00828,2026-06-30,Berlin,Suspicious Person,High,1,0.47161,0
+INC01260,2026-06-30,Berlin,Suspicious Person,Medium,0,0.516047,0
+INC01516,2026-06-30,Tokyo,CCTV False Alarm,Low,0,0.155208,0

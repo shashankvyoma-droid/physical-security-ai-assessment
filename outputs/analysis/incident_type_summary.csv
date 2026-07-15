@@ -1,0 +1,12 @@
+incident_type,incidents,high_risk_rate,critical,avg_response_min,confirmed_rate
+Lost Badge,207,0.0,0,11.54,57.49
+Visitor Policy Violation,200,0.0,0,12.14,60.5
+Unauthorized Access,199,47.24,0,11.07,56.78
+CCTV False Alarm,190,0.0,0,11.01,0.0
+CCTV Offline,190,0.0,0,11.87,58.95
+Suspicious Package,181,100.0,90,11.17,70.72
+Badge Misuse,178,51.12,0,11.96,56.18
+Emergency Exit Misuse,178,51.69,0,11.64,53.37
+Tailgating,169,55.62,0,12.3,65.68
+Door Forced Open,162,100.0,75,11.15,72.22
+Suspicious Person,146,42.47,0,11.66,65.75
